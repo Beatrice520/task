@@ -1,7 +1,17 @@
-body,div,span{padding: 0;margin: 0;}
-.load-title{height: 80px; background-color: #68cdd5; padding: 20px; line-height: 80px; text-align: center;}
+body,div,span,input{padding: 0;margin: 0;}
+html,body{background-color: #eff0f4;}
+.load-content{width: 100%;}
+.load-title{width: calc(100% - 40px); height: 80px; background-color: #68cdd5; padding: 20px; line-height: 80px; text-align: center;}
 .load-title span{display: inline-block; font-size: 2.2rem; color: #fff;}
 .load-register{float: left;}
 .load-close{float: right;}
-.load-container{background-color: #eff0f4;}
-.load-num{width:;}
+.load-container{width: 100%;}
+.load-num{width: calc(100% - 80px); height: 100px; margin-top: 30px; background-color: #fff; padding: 10px 40px; display: flex;}
+.load-numLeft{width: 15%;}
+.load-numImg{display: inline-block; width: 80px; height: 72px; background: url(images/login1.jpg) no-repeat; background-size: 100%; vertical-align: middle;}
+.load-line{display: inline-block; font-size: 4rem; vertical-align: -16px; color: #ccc;/* padding: 0px 30px;*/}
+.load-numInput{border: 0; height: 100px; width: 85%; font-size: 2.4rem;} 
+input::-webkit-input-placeholder{font-size: 2.2rem;}
+.load-numImg1{display: inline-block; width: 80px; height: 72px; background: url(images/login2.jpg) no-repeat; background-size: 100%; vertical-align: middle;}
+.load-btn{height: 120px; background-color: #68cdd5; color: #fff; margin-top: 30px; font-size: 2.2rem; text-align: center; line-height: 120px;}
+.load-content p{color: #68cdd5; text-decoration: underline; font-size: 2rem; text-align: right; padding-right: 30px;}
