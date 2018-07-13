@@ -1,0 +1,69 @@
+body,div{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 100%;
+	height: auto;
+	background-color: #68cdd5;
+	padding-bottom: 1000px;
+}
+.content-img{
+	background: url(images/task3_03.png) no-repeat;
+	background-size: 100%;
+	width: 67px;
+	height: 59px;
+	margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;                                    
+}
+.content-title{
+	text-align: center;
+	padding-top: 180px;
+}
+.content p{
+	color: #fff;
+	font-size: 30px;
+	width:65%;
+	margin: 0 auto;
+	padding-top: 200px;
+	letter-spacing: 2px;
+    line-height: 50px;
+}
+.content-bottom{
+	padding-top: 300px;
+	width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+.content-bottom .content-left{
+	width: 50%;
+}
+.content-bottom .content-right{
+	width: 50%;
+	text-align: right;
+}
+.content-bottom .content-center{
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+.content-bottom .content-bLeft{
+	width: 88px;
+	height: 92px;
+	display: block;
+	background: url(images/task3_05.jpg) no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+.content-bottom .content-bRight{
+	width: 96px;
+	height: 89px;
+	display: block;
+	background: url(images/task3_06.jpg) no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+    padding-bottom: 25px;
+}
